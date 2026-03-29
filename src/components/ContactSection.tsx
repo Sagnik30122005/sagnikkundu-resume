@@ -18,12 +18,18 @@ const ContactSection = () => {
             I'm always open to new opportunities, collaborations, and interesting conversations.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
+            <a
+              href="mailto:kundusagnik30@gmail.com"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-display font-medium text-sm hover:bg-primary/90 transition-colors"
+            >
+              <Mail className="w-4 h-4" /> Email <ArrowUpRight className="w-3 h-3" />
+            </a>
             <a
               href="https://github.com/Sagnik30122005"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-display font-medium text-sm hover:bg-primary/90 transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-display font-medium text-sm hover:bg-secondary transition-colors"
             >
               <Github className="w-4 h-4" /> GitHub <ArrowUpRight className="w-3 h-3" />
             </a>
