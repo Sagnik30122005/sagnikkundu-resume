@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, FileText, ArrowUpRight } from "lucide-react";
+import { Github, Linkedin, FileText, Mail, ArrowUpRight } from "lucide-react";
 
 const ContactSection = () => {
   return (
