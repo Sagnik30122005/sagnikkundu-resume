@@ -32,7 +32,7 @@ const Navbar = () => {
     >
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="font-display font-bold text-lg text-foreground">
-          S<span className="text-primary">.</span>
+          Sagnik<span className="text-primary"> Kundu</span>
         </a>
 
         {/* Desktop */}
